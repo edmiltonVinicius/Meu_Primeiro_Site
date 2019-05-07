@@ -1,0 +1,80 @@
+/*FONTES EXTERNAS*/
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+/* CABEÇALHO DO SITE */
+#foto-menu {
+    width: 1283px;
+    height: 540px;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+figcaption h3 {
+    position: absolute;
+    top: 325px;
+    left: 455px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#span1 {
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#titulos-menu h1{
+    position: absolute;
+    top: 210px;
+    left: 340px;
+    font-size: 55pt;
+    font-family: 'Lobster', cursive;
+    color: #beb5b5;
+}
+
+hgroup#titulos-menu h2 {
+    position: absolute;
+    top: 105px;
+    left: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17pt;
+    color: #ffffff;
+}
+
+nav#menu-principal {
+    display: block;
+}
+
+nav#menu-principal ul {
+    position: absolute;
+    top: 110px;
+    left: 530px;
+
+}
+
+nav#menu-principal li {
+    display: inline-block;
+    
+}
+
+section#texto-apresentacao {
+    height: 450px;
+    width: 1287px;
+    margin: -25px 0px 0px -8px;
+    background-color: #ffffff;
+}
+
+#foto-esquerda {
+    position: absolute;
+    margin: 0px;
+    right: 0px;
+    top: 830px;
+}
+
+#foto-direita {
+    position: absolute;
+    margin: 0px;
+    margin-left: -15px;
+    left: 0px;
+    top: 810px;
+}
