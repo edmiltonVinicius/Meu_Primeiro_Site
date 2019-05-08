@@ -1,11 +1,12 @@
 /*FONTES EXTERNAS*/
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playball');
 
 /* CABEÇALHO DO SITE */
 #foto-menu {
     width: 1283px;
-    height: 540px;
+    height: 600px;
     margin-top: -20px;
     margin-left: -50px;
 }
@@ -15,6 +16,8 @@ figcaption h3 {
     top: 325px;
     left: 455px;
     font-family: 'Josefin Sans', sans-serif;
+    color: #979494;
+    text-shadow: none;
 }
 
 #span1 {
@@ -29,16 +32,7 @@ figcaption h3 {
     left: 340px;
     font-size: 55pt;
     font-family: 'Lobster', cursive;
-    color: #beb5b5;
-}
-
-hgroup#titulos-menu h2 {
-    position: absolute;
-    top: 105px;
-    left: 25px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17pt;
-    color: #ffffff;
+    color: #f5efef;
 }
 
 nav#menu-principal {
@@ -47,14 +41,26 @@ nav#menu-principal {
 
 nav#menu-principal ul {
     position: absolute;
-    top: 110px;
-    left: 530px;
-
+    top: 90px;
+    left: 630px;
 }
 
 nav#menu-principal li {
     display: inline-block;
-    
+    margin: 15px;
+    padding: 0px;
+}
+nav#menu-principal a {
+    color: #979494;
+    text-decoration: none;
+    font-size: 11pt;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav#menu-principal a:hover {
+    color: #ffffff;
+    font-weight: bolder;    
+    font-size: 12pt;
+    text-decoration: underline;
 }
 
 section#texto-apresentacao {
