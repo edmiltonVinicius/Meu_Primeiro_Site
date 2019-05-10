@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Playball');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
 
 /* CABEÇALHO DO SITE */
+
 #foto-menu {
     width: 1283px;
     height: 600px;
     margin-top: -20px;
     margin-left: -50px;
+    margin-bottom: 0px;
 }
 
 figcaption h3 {
@@ -68,17 +71,36 @@ section#texto-apresentacao {
     background-color: #ffffff;
 }
 
-#foto-esquerda {
-    position: absolute;
-    margin: 0px;
-    right: 0px;
-    top: 830px;
-}
-
 #foto-direita {
     position: absolute;
-    margin: 0px;
-    margin-left: -15px;
-    left: 0px;
-    top: 810px;
+    top: 760px;
+    right: -10px;
+}
+
+#foto-esquerda {
+    position: absolute;
+    top: 900px;
+    left: -30px;
+}
+
+article#historia {
+    width: 800px;
+    height: 350px;
+    margin-left: 220px;
+    margin-top: -40px;
+}
+article#historia h2 {
+    font-family: 'Playball', sans-serif;
+    font-size: 50pt;
+    color: #ce4141;
+    text-align: center;
+    padding-top: 40px; 
+    margin-bottom: 0px;
+}
+article#historia p {
+    margin-top: 0px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20pt;
+    text-align: justify;
+    text-indent: 12px;
 }
