@@ -51,16 +51,14 @@ nav#menu-principal li {
     padding: 0px;
 }
 nav#menu-principal a {
-    color: #979494;
+    color: #c8c3c3;
     text-decoration: none;
-    font-size: 11pt;
+    font-size: 12pt;
     font-family: 'Josefin Sans', sans-serif;
 }
 nav#menu-principal a:hover {
     color: #ffffff;
     font-weight: bolder;    
-    font-size: 12pt;
-    text-decoration: underline;
 }
 
 section#texto-apresentacao {
