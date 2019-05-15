@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Playball');
-@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
 
 /* CABEÇALHO DO SITE */
+body{
+   padding: 0px;
+   margin: 0px;
+}
 
 #foto-menu {
     width: 1283px;
@@ -65,10 +70,8 @@ nav#menu-principal a:hover {
 }
 
 section#texto-apresentacao {
-    height: 450px;
+    height: 650px;
     width: 1287px;
-    margin: -25px 0px 0px -8px;
-    background-color: #ffffff;
 }
 
 #foto-direita {
@@ -79,28 +82,40 @@ section#texto-apresentacao {
 
 #foto-esquerda {
     position: absolute;
-    top: 900px;
+    top: 1000px;
     left: -30px;
 }
 
 article#historia {
     width: 800px;
-    height: 350px;
+    height: 500px;
     margin-left: 220px;
     margin-top: -40px;
 }
 article#historia h2 {
     font-family: 'Playball', sans-serif;
     font-size: 50pt;
-    color: #ce4141;
+    color: #a81010;
     text-align: center;
-    padding-top: 40px; 
+    padding-top: 100px; 
     margin-bottom: 0px;
 }
 article#historia p {
-    margin-top: 0px;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Kalam', cursive;
     font-size: 20pt;
     text-align: justify;
     text-indent: 12px;
+}
+
+article#historia span {
+    font-weight: bold;
+    text-decoration-line: 
+}
+
+article#historia footer p {
+    text-align: right;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 20pt;
+    color: #979494;
 }
