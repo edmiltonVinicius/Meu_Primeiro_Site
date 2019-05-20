@@ -13,7 +13,7 @@ body{
 
 #foto-menu {
     width: 1283px;
-    height: 600px;
+    height: 700px;
     margin-top: -20px;
     margin-left: -50px;
     margin-bottom: 0px;
@@ -114,12 +114,25 @@ article#historia h3 p {
     color: #979494;
 }
 
-article#artigo-tabela img {
+article#artigo-tabela {
+    background: url('../_imagens/foto-tabela.jpg');
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1279px;
     margin: 0px;
-    width: 1285px;
-    height: 550px;
 }
 
-table.lado-direito {
-    color: blue;
+#tabela-principal {
+    border-spacing: 20px;
+    font-size: 17pt;
+    color: #ffffff;
+    width: 500px;
+    margin: 0px;
 }
+
+#tabela-principal caption p {
+    color: #e0dada;
+    font-size: 55pt;
+    font-family: 'Dancing Script', cursive;
+}
+
