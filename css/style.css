@@ -69,11 +69,6 @@ nav#menu-principal a:hover {
     font-weight: bolder;    
 }
 
-section#texto-apresentacao {
-    height: 650px;
-    width: 1287px;
-}
-
 #foto-direita {
     position: absolute;
     top: 760px;
@@ -88,7 +83,7 @@ section#texto-apresentacao {
 
 article#historia {
     width: 800px;
-    height: 500px;
+    height: 600px;
     margin-left: 220px;
     margin-top: -40px;
 }
@@ -109,13 +104,22 @@ article#historia p {
 
 article#historia span {
     font-weight: bold;
-    text-decoration-line: 
 }
 
-article#historia footer p {
+article#historia h3 p {
     text-align: right;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size: 20pt;
     color: #979494;
+}
+
+article#artigo-tabela img {
+    margin: 0px;
+    width: 1285px;
+    height: 550px;
+}
+
+table.lado-direito {
+    color: blue;
 }
