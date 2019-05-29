@@ -14,20 +14,11 @@ body{
 }
 
 #foto-menu {
-    width: 1283px;
+    width: 1279px;
     height: 700px;
     margin-top: -20px;
     margin-left: -50px;
     margin-bottom: 0px;
-}
-
-figcaption h3 {
-    position: absolute;
-    top: 330px;
-    left: 455px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #979494;
-    text-shadow: none;
 }
 
 #span1 {
@@ -43,6 +34,15 @@ figcaption h3 {
     font-size: 56pt;
     font-family: 'Lobster', cursive;
     color: #f5efef;
+}
+
+#titulos-menu h2 {
+    position: absolute;
+    top: 330px;
+    left: 455px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #979494;
+    text-shadow: none;
 }
 
 nav#menu-principal {
@@ -108,7 +108,7 @@ article#historia span {
     font-weight: bold;
 }
 
-article#historia h3 p {
+article#historia h3 {
     text-align: right;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
@@ -119,25 +119,11 @@ article#historia h3 p {
 article#artigo-tabela {
     background: url('../_imagens/foto-tabela.jpg');
     background-repeat: no-repeat;
-    height: 700px;
+    height: 600px;
     width: 1279px;
     margin: 0px;
 }
-/*
-#tabela-principal {
-    border-spacing: 20px;
-    font-size: 17pt;
-    color: #ffffff;
-    width: 500px;
-    margin: 0px;
-}
 
-#tabela-principal caption p {
-    color: #e0dada;
-    font-size: 55pt;
-    font-family: 'Dancing Script', cursive;
-}
-*/
 article#artigo-tabela h2{
     font-family: 'Great Vibes', cursive;
     font-weight: bold;
@@ -173,7 +159,7 @@ a p {
     position: absolute;
     left: 460px;
     top: 1780px;
-    border: 2px #d3caca solid;
+    border: 3px #c2b9b9 solid;
     padding: 5px 10px 5px 10px;
     color: #c2b9b9;
     text-decoration: none;
