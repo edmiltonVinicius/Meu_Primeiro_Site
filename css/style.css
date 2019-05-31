@@ -168,7 +168,51 @@ a p {
     font-family: 'Saira Extra Condensed', sans-serif;
 }
 a p:hover {
+    color: #ffffff;
     border: 3px #ffffff solid;
 }
 
+article#artigo-convite {
+    width: 1200px;
+    height: 500px;
+    margin: 0px;
+}
+article#artigo-convite h2 {
+    font-family: 'Playball', sans-serif;
+    font-size: 45pt;
+    color: #a81010;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
 
+article#artigo-convite p {
+    font-family: 'Kalam', cursive;
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 0px;
+}
+
+article#artigo-convite li{
+    display: block;
+    float: left;
+    margin-top: 25px;
+}   
+
+article#artigo-convite img#fotoD {
+    width: 380px;
+    height: 300px;
+    box-shadow: 5px 3px 4px #5a5353;
+}
+article#artigo-convite img#fotoE {
+    width: 370px;
+    height: 300px;
+    margin-right: 20px;
+    box-shadow: 5px 3px 4px #5a5353;
+}
+article#artigo-convite img#fotoC {
+    width: 370px;
+    height: 300px;
+    margin-right: 20px;
+    box-shadow: 5px 3px 4px #5a5353;
+}
