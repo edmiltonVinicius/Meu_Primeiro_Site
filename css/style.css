@@ -223,16 +223,18 @@ footer#rodape {
     width: 1279px;
     height: 450px;
     background: url('../_imagens/imagem-rodape.jpg') no-repeat;
+    margin-bottom: 0px;
 }
 footer#rodape article {
     width: 500px;
     margin-left: 400px;
+    margin-bottom: 0px;
 }
 
 #rodape h2 {
     font-family: 'Great Vibes', cursive;
     font-weight: bolder;
-    color: #eb3737;
+    color: #ffffff;
     font-size: 50pt;
     padding-top: 50px;
     margin-bottom: 0;
@@ -255,12 +257,13 @@ footer#rodape article {
     font-size: 18pt;
     text-shadow: 1px 1px 1px #ffffff;   
 }
+
 #rodape a {
     border: 2px #c2b9b9 solid;
     padding: 10px 17px 10px 17px;
     font-weight: bold;
     font-family: 'Saira Extra Condensed', sans-serif;
-    color: #9e9999;
+    color: #c7bcbc;
     font-size: 20pt;
     text-decoration: none;
     position: absolute;
@@ -270,6 +273,16 @@ footer#rodape article {
     border: 2px #ffffff solid;
     color: #ffffff;
 }
-#rodape-do-rodape {
-    background: black;
+#direitos {
+    width: 979px;
+    height: 45px;
+    color: #cfc2c2;
+    background-color: rgb(44, 42, 42);
+    padding: 1px 0px 1px 300px;
+}
+#direitos .a {
+    padding-left: 15px;
+}
+#direitos .b {
+    padding-left: 15px;
 }
