@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 
 #cabecalho-site img#foto-menu {
     width: 1265px;
@@ -65,21 +66,21 @@ nav#menu-principal a:hover {
 
 section#conteudo-principal {
     width: 1262px;
-    height: 1040px;
+    height: 1050px;
     margin-top: -48px;
     margin-left: -8px;
 }
 #conteudo-principal article#historia-cafeteria {
     width: 1000px;
     margin: auto;
-    height: 550px;
+    height: 570px;
 }
 #conteudo-principal article#historia-cafeteria h2 {
     font-family: 'Playball', sans-serif;
     font-size: 40pt;
     color: #b83535;
     text-align: center;
-    padding-top: 30px; 
+    padding-top: 40px; 
     margin-bottom: 0px;
 }
 #conteudo-principal article#historia-cafeteria p {
@@ -91,6 +92,7 @@ section#conteudo-principal {
 #conteudo-principal article#historia-cafeteria img#foto-interna {
     width: 455px;
     height: 260px;
+    border-radius: 5px 50px 30px 5px; 
 }
 #conteudo-principal article#historia-cafeteria aside#conteudo-lateral {
     width: 520px;
@@ -102,11 +104,12 @@ section#conteudo-principal {
     width: 1262px;
     height: 500px;
     margin-top: -50px;
-    background-color: #eae6fc;
+    margin-bottom: 0px;
+    background-color: #f5f4fa;
 }
 #apresentacao-representantes h3 {
     font-family: 'Playball', sans-serif;
-    font-size: 40pt;
+    font-size: 36pt;
     color: #b83535;
     text-align: center;
     padding-top: 30px; 
@@ -114,54 +117,58 @@ section#conteudo-principal {
 }
 #apresentacao-representantes p {
     font-family: 'Kalam', cursive;
-    font-size: 18pt;
+    font-size: 17pt;
     text-align: justify;
     text-indent: 12px;
     text-align: center;
     margin-top: -2px;
 }
-#apresentacao-representantes img#diretor {
-    padding-top: 50px;
-    float: left;
-    padding-left: 70px; 
-    width: 250px;
+
+section#apresentacao-dono {
+    width: 50%;
 }
-#apresentacao-representantes #texto-diretor {
-    padding-top: 50px;
-    float: left;
-    padding-left: 15px;
+img#foto-dono {
+    margin-left: 30px; 
+    margin-top: 20px;
+    margin-right: 0px; 
+    width: 255px;
+    border-radius: 40%;
 }
-#apresentacao-representantes #gerente {
-    padding-top: 50px;
+
+div#proprietario {
     float: right;
-    padding-right: 350px;
-    width: 250px;
+    padding-right: 50px;
+    padding-top: 65px;
+    font-size: 16pt;
+    font-family: 'DM Sans', sans-serif;
 }
-#apresentacao-representantes #texto-gerente {
+
+section#apresentacao-gerente {
+    width: 50%;
     float: right;
-    padding-left: 350px;
+    margin-top: -190px; 
+    padding-right: 0px;
+} 
+img#foto-gerente {
+    width: 250px;
+    border-radius: 40%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+div#gerente {
+    float: right;
+    padding-right: 85px;
+    padding-top: 42px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16pt;
+}
 #direitos {
-    margin-top: 0px;
-    margin-left: -3px;
-    width: 100%;
+    width: 965px;
     height: 45px;
+    margin-top: 18px;
+    margin-left: -10px;
     color: #cfc2c2;
     background-color: rgb(44, 42, 42);
+    padding: 1px 0px 1px 300px;
 }
 #direitos .a {
     padding-left: 15px;
