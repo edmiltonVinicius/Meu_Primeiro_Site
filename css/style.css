@@ -24,24 +24,23 @@ body{
 #span1 {
     font-weight: bolder;
     color: #ffffff;
-    text-decoration: underline;
 }
 
 #titulos-menu h1{
     position: absolute;
     top: 210px;
     left: 340px;
-    font-size: 56pt;
-    font-family: 'Lobster', cursive;
+    font-size: 73pt;
+    font-family: 'Great Vibes', cursive;
     color: #f5efef;
 }
 
 #titulos-menu h2 {
     position: absolute;
-    top: 330px;
-    left: 455px;
+    top: 351px;
+    left: 464px;
     font-family: 'Josefin Sans', sans-serif;
-    color: #979494;
+    color: #afa0a0;
     text-shadow: none;
 }
 
@@ -90,7 +89,7 @@ article#historia {
     margin-top: -40px;
 }
 article#historia h2 {
-    font-family: 'Playball', sans-serif;
+    font-family: 'Great Vibes', cursive;
     font-size: 50pt;
     color: #a81010;
     text-align: center;
@@ -178,11 +177,11 @@ article#artigo-convite {
     margin: 0px;
 }
 article#artigo-convite h2 {
-    font-family: 'Playball', sans-serif;
+    font-family: 'Great Vibes', cursive;
     font-size: 45pt;
     color: #a81010;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 65px;
     margin-bottom: 0;
 }
 

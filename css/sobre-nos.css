@@ -22,20 +22,19 @@
     position: absolute;
     top: 130px;
     left: 450px;
-    font-size: 55pt;
-    font-family: 'Lobster', cursive;
+    font-size: 60pt;
+    font-family: 'Great Vibes', cursive;
     color: #f5efef;
     font-weight: none;
 }
 
 #titulos-menu h2 {
     position: absolute;
-    top: 260px;
-    left: 465px;
-    font-size: 16pt;
+    top: 100px;
+    left: 30px;
+    font-size: 19pt;
     font-family: 'Josefin Sans', sans-serif;
-    color: #a8a1a1;
-    text-shadow: none;
+    color: #f6eded;
 }
 
 nav#menu-principal {
@@ -66,18 +65,18 @@ nav#menu-principal a:hover {
 
 section#conteudo-principal {
     width: 1262px;
-    height: 1050px;
+    height: 1120px;
     margin-top: -48px;
     margin-left: -8px;
 }
 #conteudo-principal article#historia-cafeteria {
     width: 1000px;
     margin: auto;
-    height: 570px;
+    height: 600px;
 }
 #conteudo-principal article#historia-cafeteria h2 {
-    font-family: 'Playball', sans-serif;
-    font-size: 40pt;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50pt;
     color: #b83535;
     text-align: center;
     padding-top: 40px; 
@@ -108,8 +107,8 @@ section#conteudo-principal {
     background-color: #f5f4fa;
 }
 #apresentacao-representantes h3 {
-    font-family: 'Playball', sans-serif;
-    font-size: 36pt;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45pt;
     color: #b83535;
     text-align: center;
     padding-top: 30px; 
