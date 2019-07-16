@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*FONTES EXTERNAS*/
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playball');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+#cabecalho-site img#foto-menu {
+    width: 1265px;
+    height: 450px;
+    margin-top: -20px;
+    margin-left: -50px;
+    margin-bottom: 0px;
+}
+
+#titulos-menu h1{
+    position: absolute;
+    top: 130px;
+    left: 450px;
+    font-size: 60pt;
+    font-family: 'Great Vibes', cursive;
+    color: #f5efef;
+    font-weight: none;
+}
+
+#titulos-menu h2 {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-size: 19pt;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f6eded;
+}
+
+nav#menu-principal {
+    display: block;
+}
+
+nav#menu-principal ul {
+    position: absolute;
+    top: 50px;
+    left: 630px;
+}
+
+nav#menu-principal li {
+    display: inline-block;
+    margin: 15px;
+    padding: 0px;
+}
+nav#menu-principal a {
+    color: #c8c3c3;
+    text-decoration: none;
+    font-size: 11pt;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav#menu-principal a:hover {
+    color: #ffffff;
+    font-weight: bolder;    
+}
+
+section#conteudo {
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+}
+#conteudo p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14pt;
+    color: #3f3a3a;
+}
+div#espacoMapa {
+    width: 600px;
+    height: 400px;
+    background-color: #7c7373;
+    float: left;
+    border-radius: 5%;
+}
+aside#meiosContatos {
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+.titulos {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 19pt;
+    color: #3d3a3a;
+    margin-bottom: 0px;
+}   
+
+p#telefone {
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 17pt;
+    color: #3d3a3a;
+}
+
+p#email {
+    margin-top: 30px;   
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 17pt;
+    color: #3d3a3a;
+}
+
+img#iconeEndereco {
+    position: absolute;
+    top: 540px;
+    right: 480px; 
+}
+img#iconeHorario {
+    position: absolute;
+    top: 665px;
+    right: 478px; 
+}
+img#iconeTelefone {
+    position: absolute;
+    top: 750px;
+    right: 480px; 
+}
+img#iconeEmail {
+    position: absolute;
+    top: 800px;
+    right: 476px; 
+}
+
+#direitos {
+    width: 965px;
+    height: 45px;
+    margin-top: 18px;
+    margin-left: -10px;
+    color: #cfc2c2;
+    background-color: rgb(44, 42, 42);
+    padding: 1px 0px 1px 300px;
+}
+#direitos .a {
+    padding-left: 15px;
+}
+#direitos .b {
+    padding-left: 15px;
+}
