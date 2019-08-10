@@ -116,7 +116,7 @@ article#historia h3 {
 }
 
 article#artigo-tabela {
-    background: url('../_imagens/foto-tabela.jpg');
+    background: url('../imagens/foto-tabela.jpg');
     background-repeat: no-repeat;
     height: 600px;
     width: 1279px;
@@ -225,7 +225,7 @@ article#artigo-convite img#fotoC {
 footer#rodape {
     width: 1279px;
     height: 450px;
-    background: url('../_imagens/imagem-rodape.jpg') no-repeat;
+    background: url('../imagens/imagem-rodape.jpg') no-repeat;
     margin-bottom: 0px;
 }
 footer#rodape article {
